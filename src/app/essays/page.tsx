@@ -8,7 +8,6 @@ export const metadata: Metadata = {
 export default function Essays() {
   return (
     <div className="mt-16 px-8 text-center mb-20">
-      {/* Header */}
       <h1 className="text-4xl font-extrabold text-zinc-800 tracking-tight">
         Esai Saya
       </h1>
@@ -16,7 +15,6 @@ export default function Essays() {
         Saya menulis esai tentang berbagai topik, termasuk teknologi, pengembangan perangkat lunak, dan tren terbaru di dunia IT.
       </p>
 
-      {/* List Esai */}
       <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
         <EssayCard 
           title="Pentingnya UI/UX dalam Pengembangan Web" 
@@ -35,7 +33,6 @@ export default function Essays() {
   );
 }
 
-// Component untuk Kartu Esai
 function EssayCard({ title, description }: { title: string; description: string }) {
   return (
     <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all border border-gray-200 text-center">

@@ -13,7 +13,6 @@ export const metadata: Metadata = {
 export default function AboutMe() {
   return (
     <div className="text-center">
-      {/* About Me Section */}
       <section className="mt-16 px-8">
         <h2 className="text-4xl font-extrabold text-zinc-800 tracking-tight">Tentang Saya</h2>
         <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
@@ -34,7 +33,6 @@ export default function AboutMe() {
         <p className="text-gray-500">Laravel • React • MySQL</p>
       </section>
 
-      {/* Our Services */}
       <section className="mt-16 bg-gray-100 py-16">
         <h2 className="text-3xl font-semibold text-center">
           Keahlian & Layanan
